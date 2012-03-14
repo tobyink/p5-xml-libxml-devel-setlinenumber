@@ -3,7 +3,6 @@
 #include "XSUB.h"
 
 #include "ppport.h"
-#include "const-c.inc"
 
 /* libxml2 stuff */
 #include <libxml/xmlversion.h>
@@ -27,8 +26,6 @@
 
 MODULE = XML::LibXML::Devel::SetLineNumber		PACKAGE = XML::LibXML::Devel::SetLineNumber		
 
-INCLUDE: const-xs.inc
-
 PROTOTYPES: disable
 
 void
@@ -38,5 +35,6 @@ _set_line_number( sv, ln )
 	PREINIT:
 		xmlNode *node = PmmSvNode(sv);
 	CODE:
+		/* this is stupidly easy ... */
 		node->line = ln;
 
