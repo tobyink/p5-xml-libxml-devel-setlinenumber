@@ -56,6 +56,21 @@ Sets a node's line number.
 
 =back
 
+=head1 THIS MODULE IS WELL DODGY
+
+And you're a fool if you use it.
+
+If you do feel you really must use this module, it's probably best to
+load it like this:
+
+ eval {
+   require XML::LibXML::Devel::SetLineNumber;
+   import XML::LibXML::Devel::SetLineNumber;
+   1;
+ } or *set_line_number = sub { 1 };
+
+Instead of the normal C<< use XML::LibXML::Devel::SetLineNumber >>.
+
 =head1 SEE ALSO
 
 L<XML::LibXML::Devel>,
