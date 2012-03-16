@@ -1,6 +1,5 @@
 Revision history for Perl extension XML::LibXML::Devel::SetLineNumber.
 
-0.01  Wed Mar 14 19:42:23 2012
-	- original version; created by h2xs 1.23 with options
-		-n XML::LibXML::Devel::SetLineNumber
+0.001  2012-03-16
 
+	- initial version
