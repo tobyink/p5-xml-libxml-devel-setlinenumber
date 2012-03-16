@@ -7,7 +7,7 @@ use XML::LibXML;
 use XML::LibXML::Devel;
 
 our $AUTHORITY  = 'cpan:TOBYINK';
-our $VERSION    = '0.000_00';
+our $VERSION    = '0.000_01';
 
 require Exporter;
 

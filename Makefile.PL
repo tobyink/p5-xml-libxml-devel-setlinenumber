@@ -3,8 +3,18 @@ use ExtUtils::MakeMaker;
 
 WriteMakefile(
 	NAME              => 'XML::LibXML::Devel::SetLineNumber',
-	VERSION_FROM      => 'lib/XML/LibXML/Devel/SetLineNumber.pm', # finds $VERSION
-	PREREQ_PM         => {}, # e.g., Module::Name => 1.1
+	VERSION_FROM      => 'lib/XML/LibXML/Devel/SetLineNumber.pm',
+	PREREQ_PM         => {
+		'Exporter'              => 0,
+		'strict'                => 0,
+		'XML::LibXML'           => '1.90',
+		'XML::LibXML::Devel'    => 0,
+		'XSLoader'              => 0,
+		},
+	BUILD_REQUIRES    => {
+		'ExtUtils::MakeMaker'   => 0,
+		},
+	MIN_PERL_VERSION  => '5.8.3',
 	ABSTRACT_FROM     => 'lib/XML/LibXML/Devel/SetLineNumber.pm', 
 	AUTHOR            => 'Toby Inkster <tobyink@cpan.org>',
 	LIBS              => &get_libs,
