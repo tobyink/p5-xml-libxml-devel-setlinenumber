@@ -28,13 +28,12 @@ sub set_line_number
 	_set_line_number($node, $line);
 }
 
-1;
+__PACKAGE__
 __END__
-# Below is stub documentation for your module. You'd better edit it!
 
 =head1 NAME
 
-XML::LibXML::Devel::SetLineNumber - Perl extension for blah blah blah
+XML::LibXML::Devel::SetLineNumber - set the line number for an XML::LibXML::Node
 
 =head1 SYNOPSIS
 
@@ -56,6 +55,17 @@ Sets a node's line number.
 
 =back
 
+Why in name of all that is good and holy would you want to do that?
+Frankly, you probably don't. And you probably shouldn't.
+
+There's just about one sitution where it makes sense. If you are,
+say, writing a parser for a non-XML format that happens to have an
+XML-like data model, then you might wish to parse your format into
+an XML::LibXML document with elements, attributes and so on. And
+you might want all those nodes to return the correct line numbers
+when the C<line_number> method is called on them. Say, for
+instance that you're working on L<HTML::HTML5::Parser>.
+
 =head1 THIS MODULE IS WELL DODGY
 
 And you're a fool if you use it.
@@ -73,6 +83,7 @@ Instead of the normal C<< use XML::LibXML::Devel::SetLineNumber >>.
 
 =head1 SEE ALSO
 
+L<XML::LibXML>,
 L<XML::LibXML::Devel>,
 L<XML::LibXML::Node>.
 
