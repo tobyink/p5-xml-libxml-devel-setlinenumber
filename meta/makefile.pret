@@ -1,0 +1,10 @@
+# This file provides instructions for packaging.
+
+@prefix : <http://ontologi.es/doap-deps#> .
+
+`XML-LibXML-Devel-SetLineNumber`
+	:runtime-requirement    [ :on "perl 5.008003"^^:CpanId ];
+	:runtime-requirement    [ :on "XML::LibXML 1.90"^^:CpanId ];
+	:runtime-requirement    [ :on "XML::LibXML::Devel"^^:CpanId ];
+	:configure-suggestion   [ :on "ExtUtils::Constant"^^:CpanId ];
+	:test-requirement       [ :on "Test::More 0.47"^^:CpanId ].
