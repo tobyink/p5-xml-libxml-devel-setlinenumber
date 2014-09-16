@@ -9,7 +9,7 @@
 	:download-page        <https://metacpan.org/release/XML-LibXML-Devel-SetLineNumber>;
 	:bug-database         <http://rt.cpan.org/Dist/Display.html?Queue=XML-LibXML-Devel-SetLineNumber>;
 	:repository           [ a :GitRepository; :browse <https://github.com/tobyink/p5-xml-libxml-devel-setlinenumber> ];
-	:created              2013-05-14;
+	:created              2012-03-16;
 	:license              <http://dev.perl.org/licenses/>;
 	:seealso              `XML-LibXML`;
 	:maintainer           cpan:TOBYINK;
