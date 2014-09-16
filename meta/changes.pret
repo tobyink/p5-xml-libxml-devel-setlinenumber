@@ -11,13 +11,13 @@
 		item "I hate using EU:MM without several layers of abstraction on top."^^Packaging;
 	].
 
-`PerlX-ArraySkip-XS 0.001 cpan:TOBYINK`
+`XML-LibXML-Devel-SetLineNumber 0.001 cpan:TOBYINK`
 	issued  2012-03-18;
 	changeset [
 		item "Documentation improvements."^^Documentation;
 	].
 
-`PerlX-ArraySkip-XS 0.002 cpan:TOBYINK`
+`XML-LibXML-Devel-SetLineNumber 0.002 cpan:TOBYINK`
 	issued  2014-09-16;
 	label   "Two and a half year anniversary";
 	changeset [
