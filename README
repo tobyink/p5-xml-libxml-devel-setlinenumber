@@ -1,5 +1,5 @@
-XML-LibXML-Devel-SetLineNumber version 0.000_01
-===============================================
+XML-LibXML-Devel-SetLineNumber version 0.001
+============================================
 
 INSTALLATION
 
@@ -28,14 +28,11 @@ In cmd.exe:
   set PERL_LIBXML_SETLINE_LIBS="-LC:\libxml2\lib"
   set PERL_LIBXML_SETLINE_INC="-IC:\libxml2\include"
 
-COPYRIGHT AND LICENCE
 
-Put the correct copyright and licence information here.
+COPYRIGHT AND LICENCE
 
 Copyright (C) 2012 by Toby Inkster
 
 This library is free software; you can redistribute it and/or modify
-it under the same terms as Perl itself, either Perl version 5.10.1 or,
-at your option, any later version of Perl 5 you may have available.
-
+it under the same terms as Perl itself.
 

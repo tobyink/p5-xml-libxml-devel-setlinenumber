@@ -8,3 +8,8 @@ Revision history for Perl extension XML::LibXML::Devel::SetLineNumber.
 
   - It might help if I added pre-requisites.
   - I hate using EU:MM without several layers of abstraction on top.
+
+0.001  2012-03-18
+
+  - Documentation improvements.
+  - Stable release.
